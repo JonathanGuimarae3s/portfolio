@@ -3,14 +3,17 @@
 }
 
 :host {
+
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
 
   header,
   h3,
   p,
   mat-dialog-content {
+
     padding: 0;
     margin: 0 0 15px;
   }
@@ -21,10 +24,11 @@
     align-items: center;
 
     h2 {
-      font-size: 22px;
+      font-size: 24px;
       padding: 0;
       margin: 0;
       color: var(--black-010);
+      text-align: center;
     }
 
     button {
@@ -36,19 +40,22 @@
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--black-010);
   }
 
   article {
     margin-bottom: 15px;
-
+    color: var(--black-010);
     p {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
   nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }

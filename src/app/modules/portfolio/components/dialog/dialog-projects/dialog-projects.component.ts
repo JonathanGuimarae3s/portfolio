@@ -5,6 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/materia
 @Component({
   selector: 'app-dialog-projects',
   standalone: true,
+
   imports: [MatDialogModule],
   templateUrl: './dialog-projects.component.html',
   styleUrl: './dialog-projects.component.scss'
