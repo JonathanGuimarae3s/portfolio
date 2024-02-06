@@ -5,6 +5,7 @@ export interface Projects {
   width: string,
   height: string,
   description: string,
+  tecnologies:string,
   links: [
     {
       name: string,
