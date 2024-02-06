@@ -32,7 +32,6 @@
     }
 
     button {
-      background: none;
       border: none;
       padding: 0;
       cursor: pointer;
@@ -47,6 +46,7 @@
   article {
     margin-bottom: 15px;
     color: var(--black-010);
+
     p {
       font-size: 18px;
     }
@@ -57,5 +57,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
+
+    a {
+      background: var(--grey);
+
+      &:hover {
+        background: var(--grey-2);
+      }
+    }
+
   }
 }
