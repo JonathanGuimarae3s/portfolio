@@ -19,11 +19,13 @@ export class ProjectsComponent {
       src: 'https://raw.githubusercontent.com/JonathanGuimarae3s/ilha-das-rabanadas/main/public/imgs/img/logo-footer.webp',
       alt: 'Projeto Ilha das Rabanadas v.2',
       title: 'Ilha das Rabanadas v.2',
+
       width: '40%',
       height: '',
       description: "<span>Colaborei no desenvolvimento de um sistema focado em otimizar o serviço de\
       encomendas da empresa 'Ilha das Rabanadas.\
       A Ilha é uma empresa focada na produção de rabanadas de diversos tipos e sabores. Além disso, conta com serviços de delivery.Essa segunda versao do sistema web veio para corrigir algumas falhas e fizemos a troca da linguagem de back-end</span>",
+
       tecnologies:"<ul>\
         <li><strong>Arquitetura de Projeto:</strong> MVC (Model - View - Controller) com conceito singleton.</li>\
         <li><strong>Banco de Dados:</strong> MySQL.</li>\
@@ -67,11 +69,13 @@ export class ProjectsComponent {
       src: 'https://raw.githubusercontent.com/JonathanGuimarae3s/ilha-das-rabanadas/main/public/imgs/img/logo-footer.webp',
       alt: 'Projeto Ilha das Rabanadas ',
       title: 'Ilha das Rabanadas ',
+
       width: '40%',
       height: '',
       description: "<span>Colaborei no desenvolvimento de um sistema focado em otimizar o serviço de\
       encomendas da empresa 'Ilha das Rabanadas.\
       A Ilha é uma empresa focada na produção de rabanadas de diversos tipos e sabores. Além disso, conta com serviços de delivery.</span>",
+
       tecnologies:"<ul>\
       <li><strong>Arquitetura de projeto:</strong> MVC com conceito singleton</li>\
       <li><strong>Banco de Dados:</strong> MySQL</li>\
@@ -114,7 +118,7 @@ export class ProjectsComponent {
     this.#dialog.open(DialogProjectsComponent, {
         data: data,
         panelClass: EDialogPanelClass.PROJECTS,
-    
+
       });
   }
 }
