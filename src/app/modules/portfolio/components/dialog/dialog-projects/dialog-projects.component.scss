@@ -68,4 +68,24 @@
     }
 
   }
+  
+  ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    li {
+      width: 10%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 7px;
+    }
+  }
+  
 }

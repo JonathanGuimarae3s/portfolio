@@ -8,17 +8,33 @@
   </header>
 
   <mat-dialog-content>
-    <h3>Descrição</h3>
+    <p style="color: black;" [innerHTML]="getData()?.periodo"></p>
 
+    <h3>Descrição</h3>
     <article [innerHTML]="getData()?.description"></article>
-    <h3>Tecnologias e conceitos utilizados</h3>
+    <h3>Competências</h3>
+    <ul>
+      @for (item of getData()?.knowledge; track item) {
+  
+      <li>
+        <img
+          [src]="item.src"
+          [alt]="item.alt"
+          loading=""
+          width="100%"
+  
+        />
+      </li>
+      }
+    </ul>
+
     <article [innerHTML]="getData()?.tecnologies"></article>
-    <nav>
+    <!-- <nav>
       @for(item of getData()?.links; track item){
       <a [href]="item.href" target="_blank" class="btn btn-primary">
         {{ item.name }}
       </a>
       }
-    </nav>
+    </nav> -->
   </mat-dialog-content>
 </div>
